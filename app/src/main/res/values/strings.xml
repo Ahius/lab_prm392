@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab01</string>
+    <string name="linear_layout_text">Linear layout</string>
+    <string name="linear_layout_KPT_text">Linear layout KPT</string>
+    <string name="android_text">Android</string>
+    <string name="php_text">PHP</string>
+    <string name="sql_text">SQL</string>
+    <string name="python_text">Python</string>
+    <string name="instagram">𝓘𝓷𝓼𝓽𝓪𝓰𝓻𝓪𝓶</string>
+
+</resources>

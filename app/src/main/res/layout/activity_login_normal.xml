@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginNormal">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#AAAAAA"
+        android:text="Sign in Form"
+        android:textSize="24sp"
+        />
+    <EditText
+        android:id="@+id/us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txt1"
+        />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/us"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not account yet? Create one"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/pw"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_textfield"
+        android:layout_centerHorizontal="true"
+        android:text="Sign In"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txt2"
+        android:textColor="@color/white"
+    />
+</RelativeLayout>
